@@ -1,6 +1,8 @@
-def main(): 
+def main():
     x = str.lower(input("enter an uppercase sentence"))
-    git print(x) 
+    git print(x)
+
+
 
 
 main()
