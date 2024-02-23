@@ -9,11 +9,3 @@ def main():
 
 
 main()
-# def uppercase(input_str):
-# for i in range(len(input_str)):
-# if input_str[i].isupper():
-# return input_str[i]
-# return "no uppercase characters found"
-
-
-# print(uppercase(a))
