@@ -1,10 +1,11 @@
 def main():
     a = str(input("enter to get camel cased"))
 
-    for i in range(len(a)):
-        if a[i].isupper():
-            j = str(i)
-            print(a.replace("j", "_"))
+    for i in a:
+        if i.isupper():
+            print("_" + i.lower(), end="")
+        else:
+            print(i, end="")
 
 
 main()
