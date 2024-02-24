@@ -1,11 +1,13 @@
 def main():
-    change = a - 50
-    a = int(input("insert coin"))
-    while a <= 50:
-        if a >= 50:
-            print("Amount Due" + change)
-        else:
-            a = int(input("insert coin"))
+    x = 50
+
+    while x > 0:
+        print("Amount Due: ", x)
+        y = int(input("Insert Coin: "))
+        if y == 5 or y == 10 or y == 25:
+            x -= y
+    z = abs(x)
+    print("change owed: ", z)
 
 
 main()

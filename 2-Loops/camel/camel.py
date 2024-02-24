@@ -1,5 +1,5 @@
 def main():
-    a = str(input("enter to get camel cased"))
+    a = str(input("enter to get snake cased"))
 
     for i in a:
         if i.isupper():

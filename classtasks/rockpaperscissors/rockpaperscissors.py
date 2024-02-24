@@ -2,7 +2,7 @@ import random
 
 
 def main():
-    playerchoice = str(input("rock paper scisors"))
+    playerchoice = str(input("rock paper scissors"))
     choices = ["rock", "paper", "scissor"]
     x = random.choice(choices)
     match playerchoice:
